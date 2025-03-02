@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Panel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Student Panel</h1>
+  </header>
+  <main>
+    <form id="student-register">
+      <h2>Register</h2>
+      <input type="text" id="student-name" placeholder="Name" required>
+      <input type="email" id="student-email" placeholder="Email" required>
+      <input type="password" id="student-password" placeholder="Password" required>
+      <button type="submit">Register</button>
+    </form>
+
+    <form id="student-login">
+      <h2>Login</h2>
+      <input type="email" id="student-login-email" placeholder="Email" required>
+      <input type="password" id="student-login-password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+
+    <form id="book-appointment">
+      <h2>Book Appointment</h2>
+      <input type="text" id="teacher-id" placeholder="Teacher ID" required>
+      <input type="date" id="appointment-date" required>
+      <textarea id="appointment-purpose" placeholder="Purpose" required></textarea>
+      <button type="submit">Book Appointment</button>
+    </form>
+
+    <form id="send-message">
+      <h2>Send Message</h2>
+      <input type="text" id="teacher-id" placeholder="Teacher ID" required>
+      <textarea id="message" placeholder="Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </main>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
