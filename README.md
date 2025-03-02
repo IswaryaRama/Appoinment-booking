@@ -13,7 +13,7 @@ This project provides a web-based appointment booking system for students and te
 3. Use the admin or student panels as needed.
 
 ## GitHub Repo
-[Link to GitHub Repository](#)
+https://github.com/IswaryaRama/Appoinment-booking
 
 ## Workflow
 - **Admin**: Add teachers, approve registrations, and manage appointments.
