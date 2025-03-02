@@ -1,0 +1,12 @@
+{
+  "hosting": {
+   "site": "student-teacher-booking-edffb",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
+
